@@ -1,0 +1,43 @@
+.card {
+    border-radius: 18px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-content {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 15px;
+    padding: 18px;
+    height: 100%;
+}
+
+.button-input {
+    border-radius: 8px;
+    border: none;
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    width: 50%;
+    transform: scale(1);
+    transition: ease-in-out 0.2s;
+}
+
+.button-input:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.2s;
+}
