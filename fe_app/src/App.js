@@ -68,7 +68,7 @@ export default function QnAApp() {
                     </div>
                 </div>
                 <div className="text-center mt-3">
-                    <small>Made with 💖 by Group 6</small>
+                    <small>Made with 💖 by Group 66666</small>
                     <br></br>
                     <small>NLP Mini Project | 2025</small>
                 </div>
